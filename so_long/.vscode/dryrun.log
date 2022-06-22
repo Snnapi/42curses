@@ -1,0 +1,18 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/bebopdotc123/Code/42curses/so_long'
+gcc -c src/main.c src/init.c src/map_create.c src/map_validate.c src/draw.c src/render.c src/hook.c src/event.c src/move.c src/utils.c src/free.c -I inc
+gcc -c src/main.c src/init.c src/map_create.c src/map_validate.c src/draw.c src/render.c src/hook.c src/event.c src/move.c src/utils.c src/free.c -I inc
+gcc -c src/main.c src/init.c src/map_create.c src/map_validate.c src/draw.c src/render.c src/hook.c src/event.c src/move.c src/utils.c src/free.c -I inc
+gcc -c src/main.c src/init.c src/map_create.c src/map_validate.c src/draw.c src/render.c src/hook.c src/event.c src/move.c src/utils.c src/free.c -I inc
+gcc -c src/main.c src/init.c src/map_create.c src/map_validate.c src/draw.c src/render.c src/hook.c src/event.c src/move.c src/utils.c src/free.c -I inc
+gcc -c src/main.c src/init.c src/map_create.c src/map_validate.c src/draw.c src/render.c src/hook.c src/event.c src/move.c src/utils.c src/free.c -I inc
+gcc -c src/main.c src/init.c src/map_create.c src/map_validate.c src/draw.c src/render.c src/hook.c src/event.c src/move.c src/utils.c src/free.c -I inc
+gcc -c src/main.c src/init.c src/map_create.c src/map_validate.c src/draw.c src/render.c src/hook.c src/event.c src/move.c src/utils.c src/free.c -I inc
+gcc -c src/main.c src/init.c src/map_create.c src/map_validate.c src/draw.c src/render.c src/hook.c src/event.c src/move.c src/utils.c src/free.c -I inc
+gcc -c src/main.c src/init.c src/map_create.c src/map_validate.c src/draw.c src/render.c src/hook.c src/event.c src/move.c src/utils.c src/free.c -I inc
+gcc -c src/main.c src/init.c src/map_create.c src/map_validate.c src/draw.c src/render.c src/hook.c src/event.c src/move.c src/utils.c src/free.c -I inc
+make -C mlx
+gcc -o so_long main.o init.o map_create.o map_validate.o draw.o render.o hook.o event.o move.o utils.o free.o -framework OpenGL -framework Appkit mlx/libmlx.a
+mv *.o obj
+make: Leaving directory `/Users/bebopdotc123/Code/42curses/so_long'
+ 
